@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>trackhabby</title>
+    <link rel="stylesheet" href="habbithunt.css">
+</head>
+<body>
+<header>
+    <h1> The Habit Tracker</h1>
+    <p>We are what we repeatedly do</p>
+    <section class="habit-list">
+        
+        <table border="black" >
+            <thead>
+                <tr>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Habit</th>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Mon</th>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Tue</th>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Wed</th>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Thu</th>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Fri</th>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Sat</th>
+                    <th style="color: white; background-color: rgb(55, 53, 53);">Sun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Walking</td>
+                    <td><input type="checkbox" class="habit-checkbox"></td>
+                    <td><input type="checkbox" class="habit-checkbox"></td>
+                    <td><input type="checkbox" class="habit-checkbox"></td>
+                    <td><input type="checkbox" class="habit-checkbox"></td>
+                    <td><input type="checkbox" class="habit-checkbox"></td>
+                    <td><input type="checkbox" class="habit-checkbox"></td>
+                    <td><input type="checkbox" class="habit-checkbox"></td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Yoga</td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+            </tr>
+
+            <tr>
+                <td>Diet</td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+                <td><input type="checkbox" class="habit-checkbox"></td>
+            </tr>
+            </tbody>
+        </table>
+    
+        
+    </section>
+    <section class="progress-bar">
+        <h2>Your Progress</h2>
+        <div class="progress-container">
+            <div class="progress-bar-fill" style="width: 70%;">walking</div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar-fill" style="width: 50%;">yoga</div>
+
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar-fill" style="width: 80%;">Diet</div>
+
+        </div>
+
+
+
+    </section>
+    
+   
+        <div>
+            <div class="summary-card">
+            <h3 id="wp">Weekly Summary</h3>
+            <p id="wp"> Habits Completed: <span>3 habits</span></p>
+            <p id="wp"> Missed Habits: <span>2 habits</span></p>
+            <p id="wp"> Due Habits: <span>3 habits</span></p>
+        </div>
+    </div>
+   
+
+            <section class="mode-toggle">
+                    <button id="toggle-button">Night Mode</button>
+            </section>
+    
+    
+</header>
+
+</body>
+</html>
