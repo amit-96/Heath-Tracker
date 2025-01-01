@@ -1,0 +1,159 @@
+h1 {
+    margin: 0;
+}
+p{
+    margin-top: 5px;
+    text-wrap: nowrap;
+    font-size: medium;
+  font-weight: 200;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+  
+    color: rgb(21, 8, 8);
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+tabekly Summary */le {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 4 ease;
+    
+}
+input[type="checkbox"]:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 4px 6px black;
+}
+
+
+.progress-container {
+    width: 96%;
+    background-color: #eadddd;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  
+  
+}
+#progress-bar{
+    text-align: center;
+ overflow: scroll;
+}
+
+ 
+.summary-card {
+    background-color:none;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right:0px ;
+    margin-top: 0px;
+    margin: 20px auto ;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-wrap: nowrap;
+    overflow: nowrap;
+    text-align: center;
+    
+}
+
+.summary-card span {
+    font-weight: bold;
+}
+
+
+
+
+.progress-bar-fill {
+    height: 20px;
+    background-color: #cc6211;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.habit-list{
+    margin: 30px auto;
+}
+table{
+    margin: 10px auto;
+}
+image{
+    padding-left: 2px;
+}
+#toggle-button{
+    height: 35px;
+    width: 10%;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #1b1a1a;
+    color: rgb(163, 162, 162);
+    cursor: pointer;
+    transition: 2s;
+    overflow: hidden;
+    text-align: center;
+    transform:transform 2 ease;
+
+
+}
+.mode-toggle:hover #toggle-button{
+    transform: scale(1.1);
+    box-shadow: 5px 4px 6px black;
+
+}
+#id{
+    text-align: center;
+}
+@media(max-width:380px){
+  .summary-card  {
+    width:50%;
+        text-align: center;
+    }
+    #toggle-button{
+        width: 77px;
+        height: 30px;
+        text-wrap:nowrap;
+    }
+    .summary-card {
+        text-align: center;
+        padding: 20px auto;
+        position:absolute;
+    }
+    h1{
+        width: 360px;
+        height: 30px;
+    }
+    .table{
+        width: 400px;
+        height: 150px; ;
+    }
+}
