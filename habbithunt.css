@@ -104,21 +104,20 @@ image{
     padding-left: 2px;
 }
 #toggle-button{
-    height: 35px;
-    width: 10%;
+    height:27px;
+    width:4%;
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: #1b1a1a;
-    color: rgb(163, 162, 162);
+    background-color: #f1eeee;
+    color: rgb(27, 25, 25);
     cursor: pointer;
     transition: 2s;
     overflow: hidden;
     text-align: center;
     transform:transform 2 ease;
-
-
 }
+
 .mode-toggle:hover #toggle-button{
     transform: scale(1.1);
     box-shadow: 5px 4px 6px black;
